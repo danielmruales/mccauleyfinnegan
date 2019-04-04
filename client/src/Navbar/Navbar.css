@@ -1,0 +1,9 @@
+.mainNav{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navItems {
+    text-decoration: none;
+    color: black;
+}
