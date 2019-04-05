@@ -1,0 +1,12 @@
+.adminNav {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #333333;
+    padding: 20pt;
+}
+
+.adminItems {
+    text-decoration: none;
+    color: white;
+    font-size: 15pt
+}

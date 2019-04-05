@@ -1,9 +1,16 @@
 .mainNav{
     display: flex;
     justify-content: space-evenly;
+    background-color:  #f8a9a9;
 }
 
 .navItems {
     text-decoration: none;
     color: black;
+    font-size: 13pt;
+    margin-top: 22pt;
+}
+
+.logo {
+    height: 80px;
 }

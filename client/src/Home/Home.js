@@ -1,9 +1,13 @@
 import React from 'react';
+import Navbar from '../Navbar/Navbar.js'
+import './Home.css'
 
 const Home = () => {
     return (
         <div>
-            <h1>M.C. Finnegan Photography</h1>
+            <Navbar/>
+            <h1 className='title'>Mccauley Finnegan</h1>
+            {/* <img/> */}
         </div>
     );
 };
