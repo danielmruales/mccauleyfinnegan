@@ -6,8 +6,8 @@ const Home = () => {
     return (
         <div>
             <Navbar/>
-            <h1 className='title'>Mccauley Finnegan</h1>
-            {/* <img/> */}
+            <div className='heroPic'></div>
+            <div className='secondSection'> <h1>Herro</h1></div>
         </div>
     );
 };
