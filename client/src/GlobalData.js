@@ -34,7 +34,7 @@ class GlobalData extends Component {
 export default GlobalData;
 
 export function withGlobalData (C) {
-    return props => 
-           <Consumer> {value=> <C {...value}{...props}/>} </Consumer>
-    
+    return props => <Consumer> 
+                        {value => <C {...value}{...props} />} 
+                    </Consumer>
 }

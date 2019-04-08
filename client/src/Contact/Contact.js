@@ -19,24 +19,28 @@ class Contact extends Component {
     handleChange = e => {
         this.setState({[e.target.name]:e.target.value})
     }
-
-
+    
     handleSumbit = e => {
         e.preventDefault()
-    }
-    
+        this.props.postContactInfo(this.state)
+        this.setState({ firstName: '',
+        lastName: '',
+        email: '',
+        message: ''
+    })
+}
 
-
-    render() {
+render() {
+    console.log(this.props)
         return (
             <div>
                 <Navbar/>
                 <h1 className='contactTitle'>Want To Chat?</h1>
-                <form className='contactForm'>
-                    <input placeholder='First Name' type='text' name='firstName' value='' required/>
-                    <input placeholder='Last Name' type='text' name='lastName' value='' required/>
-                    <input placeholder='E-mail' type='email' name='email' value='' required/>
-                    <textarea placeholder='Message' name='' value='message'required />
+                <form className='contactForm' onSubmit={this.handleSumbit}>
+                    <input placeholder='First Name' type='text' name='firstName' value = {this.state.firstName}  onChange = {this.handleChange} required/>
+                    <input placeholder='Last Name' type='text' name='lastName' value = {this.state.lastName} onChange ={ this.handleChange} required/>
+                    <input placeholder='E-mail' type='email' name='email' value = {this.state.email} onChange = {this.handleChange} required/>
+                    <textarea placeholder='Message' name='message' value = {this.state.message} onChange = {this.handleChange} required />
                     <button>Send</button>
                 </form>
             </div>
