@@ -3,15 +3,30 @@
 }
 
 .heroPic {
-    height: 70vh;
-    opacity: 0.7;
-    background-image: url('https://www.mcfinneganphotography.com/uploads/9/1/6/0/91608040/background-images/819065628.jpg')
+    height: 500pt;
+    /* opacity: 0.8; */
+    background-image: url('https://www.mcfinneganphotography.com/uploads/9/1/6/0/91608040/background-images/819065628.jpg');
+    background-size: cover;
 }
 
+.heroTitle {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 150pt;
+    margin: 0;
+    color: black;
+    font-size: 3em;
+    font-weight: 900;
+    
+}
+
+
 .secondSection {
-    /* background-color: skyblue; */
+    /* background-color: white; */
     width: 100vw;
-    height: 700pt;
+    height: 940pt;
     /* margin-top: 20vh */
 }
 
@@ -22,17 +37,142 @@
 
 .servicesTitle {
     text-align: center;
-    margin-top: 100pt
+    margin-top: 30pt;
+    font-size: 30pt;
+    margin-bottom: 35pt;
 }
 
 .homePics {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 20pt;
+    margin-bottom: 35pt
 
 }
 
-.gridPics {
-    height: 200px;
+.topLeft {
+    height: 300px;
     margin: auto;
+    margin-right: 0;
+    border: black solid 2px;
+    border-radius: 5px;
+}
+
+.topRight {
+    height: 300px;
+    margin: auto;
+    margin-left: 0;
+    border: black solid 2px;
+    border-radius: 5px;
+}
+
+.bottomLeft {
+    height: 300px;
+    margin: auto;
+    margin-right: 0;
+    border: black solid 2px;
+    border-radius: 5px;
+    
+}
+
+.bottomRight {
+    height: 300px;
+    margin: auto;
+    margin-left: 0;
+    border: black solid 2px;
+    border-radius: 5px;
+}
+
+.thirdTitle {
+    text-align: center;
+    margin-top: 25pt
+}
+
+/* .verticalLine {
+    border: 2px solid #F7A9A9;
+    margin: auto;
+    width: 300pt
+  } */
+
+.contactBtn {
+    display: flex;
+    justify-content: center;
+    width: 140px;
+    padding: 5px;
+    margin: auto;
+    text-decoration: none;
+    color: black;
+    font-size: 1.4em;
+    border: 1px black solid;
+    border-radius: 5px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 420px) {
+
+    .heroPic {
+        height: 40vh;
+        background-size: cover;
+    }
+
+    .servicesTitle {
+        margin-top: 50pt
+    }
+
+    .homePics {
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+    } 
+    .topLeft {
+        height: 190px;
+        margin: inherit;
+        margin-bottom: 20pt
+    }
+    .topRight {
+        height: 190px;
+        margin: inherit;
+        margin-bottom: 20pt
+    }
+    .bottomLeft {
+        height: 190px;
+        margin: inherit;
+        margin-bottom: 20pt
+    }
+
+    .bottomRight {
+        height: 190px;
+        margin: inherit;
+    }
+
+}
+
+@media (min-width: 740px) and (max-width: 1060px) {
+    .heroPic {
+        height: 50vh;
+        background-size: cover;
+    }
+
+    .bottomLeft {
+        height: 200px;
+    }
+    .bottomRight {
+        height: 200px;
+    }
+    .topLeft {
+        height: 200px;
+    }
+    .topRight {
+        height: 200px;
+    }
 }

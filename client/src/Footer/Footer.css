@@ -1,8 +1,8 @@
 .footer {
     display: flex;
     justify-content: center;
-    position: fixed;
-    bottom: 0;
+    position: absolute;
+    
     width: 100vw;
     background-color: #f8a9a9;
 }
