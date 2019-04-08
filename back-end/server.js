@@ -3,7 +3,7 @@ const App = express();
 require('dotenv').config();
 const mongoose = require('mongoose');
 const expressJwt = require('express-jwt');
-const port = process.env.port || 5500;
+const port = process.env.port || 5500
 
 App.use(express.json())
 App.use('/api', expressJwt({secret: process.env.SECRET}));

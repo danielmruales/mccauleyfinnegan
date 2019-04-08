@@ -8,7 +8,7 @@ const Home = () => {
         <div>
             <Navbar/>
             <div className='heroPic'>
-                <div className='heroTitleDiv'><h1 className='heroTitle'>McCauley Finnegan</h1></div>
+                {/* <h1 className='heroTitle'>McCauley Finnegan</h1> */}
             </div>
             <div className='secondSection'> 
                 <h1 className='secondTitle'>Words to tell them what you offer/why you</h1>
