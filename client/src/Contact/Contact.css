@@ -3,6 +3,28 @@
 }
 
 
+.formDiv {
+    background-color: #333333;
+    width: 35vw;
+    margin:  auto;
+    border: 3px solid pink;
+    border-radius: 10px;
+    margin-bottom: 30px
+}
+
 .contactForm {
     margin-bottom: 40pt;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
 }
+
+.contactForm > input {
+    margin: 10pt;
+    border: 2px pink solid;
+    border-radius: 3px;
+    
+}
+

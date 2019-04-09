@@ -2,7 +2,27 @@
     display: flex;
     justify-content: center;
     position: absolute;
-    
     width: 100vw;
     background-color: #f8a9a9;
 }
+
+@media (max-width: 420px) {
+    .footer {
+        position: absolute;
+        bottom: 0;
+    }
+}
+
+@media (max-width: 375px) {
+    .footer { 
+        position: absolute;
+        bottom: 0
+    }
+}
+
+/* @media (min-width: 740px) and (max-width: 1060px) {
+    .footer {
+        position: absolute;
+        bottom: 0;
+    }
+} */

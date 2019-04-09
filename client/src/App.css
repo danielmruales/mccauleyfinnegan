@@ -1,3 +1,26 @@
 body {
   margin: 0;
 }
+
+@media (max-width: 420px) {
+  .mainDiv { 
+    position: relative;
+    height: 280vh;
+  }
+}
+@media (max-width: 375px) {
+  .mainDiv {
+    position: relative;
+    height: 310vh;
+  }
+}
+
+
+
+/* 
+@media (min-width: 740px) and (max-width: 1060px) {
+  .mainDiv {
+    position: relative;
+    height: 175vh;
+  }
+} */

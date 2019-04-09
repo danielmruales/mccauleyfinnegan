@@ -14,7 +14,7 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-      <div >
+      <div className='mainDiv'>
 
         <Switch>
           <Route exact path='/' component={Home}/>

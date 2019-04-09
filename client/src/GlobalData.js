@@ -6,9 +6,17 @@ class GlobalData extends Component {
     constructor(){
         super()
         this.state = {
-            contactInfo: []
+            contactInfo: [],
+            submissions: []
         }
     }
+
+    getContactInfo = () => {
+        axios.get('/contact').then(res => {
+            this.setState({submissions: res.data})
+        })
+    }
+
 
 
     postContactInfo = (newContactInfo) => {
@@ -23,6 +31,7 @@ class GlobalData extends Component {
         return (
             <Provider value={{
                 postContactInfo: this.postContactInfo,
+                getContactInfo: this.getContactInfo,
                 ...this.state
             }}>
                 {this.props.children}

@@ -26,7 +26,7 @@
 .secondSection {
     /* background-color: white; */
     width: 100vw;
-    height: 940pt;
+    height: 970pt;
     /* margin-top: 20vh */
 }
 
@@ -56,6 +56,7 @@
     margin-right: 0;
     border: black solid 2px;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .topRight {
@@ -88,11 +89,6 @@
     margin-top: 25pt
 }
 
-/* .verticalLine {
-    border: 2px solid #F7A9A9;
-    margin: auto;
-    width: 300pt
-  } */
 
 .contactBtn {
     display: flex;
@@ -105,18 +101,9 @@
     font-size: 1.4em;
     border: 1px black solid;
     border-radius: 5px;
+    margin-top: 35pt;
 
 }
-
-
-
-
-
-
-
-
-
-
 
 @media (max-width: 420px) {
 

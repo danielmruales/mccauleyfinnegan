@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Nav from './Nav/Nav'
 import './Admin.css'
-
+import { withGlobalData } from '../GlobalData.js'
 
 class Admin extends Component {
     render() {
@@ -16,4 +16,4 @@ class Admin extends Component {
     }
 }
 
-export default Admin;
+export default withGlobalData(Admin);

@@ -1,0 +1,14 @@
+.submissionsDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    width: 30vw;
+    margin: auto;
+    color: white;
+    margin-bottom: 30pt;
+    margin-top: 30pt;
+    border: red 2px solid;
+    border-radius: 15px;
+}  
+
