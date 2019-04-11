@@ -2,13 +2,24 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: black;
-    width: 30vw;
-    margin: auto;
-    color: white;
+    background-color: aquamarine;
+    color: black;
     margin-bottom: 30pt;
     margin-top: 30pt;
-    border: red 2px solid;
+    border: black 2px solid;
     border-radius: 15px;
 }  
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(350px, 1fr));
+    grid-gap: 10pt;
+    margin: 10pt;
 
+}
+
+.deleteBtn {
+    margin-bottom: 10pt;
+    margin-top: 15pt;
+    zoom: 1.4;
+    border-radius: 5px;
+}

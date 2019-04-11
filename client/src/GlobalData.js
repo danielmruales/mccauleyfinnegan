@@ -27,11 +27,16 @@ class GlobalData extends Component {
         })
     }
 
+  
+
+
+
     render() {
         return (
             <Provider value={{
                 postContactInfo: this.postContactInfo,
                 getContactInfo: this.getContactInfo,
+                deleteSubmission: this.deleteSubmission,
                 ...this.state
             }}>
                 {this.props.children}

@@ -1,0 +1,53 @@
+.serviceTitle {
+    text-align: center;
+    margin-top: 40pt;
+    margin-bottom: 70pt;
+}
+
+.marketing {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+}
+
+.marketingPic {
+    width: 829.5px;
+    border: 4px black solid;
+}
+
+.marketingTitle {
+    text-align: center;
+}
+
+.photo {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+    margin-bottom: 40pt
+}
+
+.photoPic {
+    width: 829.5px;
+    border: 4px black solid;
+}
+
+.photoTitle {
+    text-align: center;
+}
+
+.business {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 40pt;
+    padding: 20px;
+}
+
+.businessPic {
+    width: 829.5px;
+    border: 4px black solid;
+}
+
+.businessTitle {
+    text-align: center;
+}
