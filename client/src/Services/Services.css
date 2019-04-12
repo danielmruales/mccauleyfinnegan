@@ -11,8 +11,8 @@
 }
 
 .marketingPic {
-    width: 829.5px;
-    border: 4px black solid;
+    height: 700px;
+    
 }
 
 .marketingTitle {
@@ -28,8 +28,8 @@
 }
 
 .photoPic {
-    width: 829.5px;
-    border: 4px black solid;
+    height: 700px;
+    
 }
 
 .photoTitle {
@@ -44,10 +44,15 @@
 }
 
 .businessPic {
-    width: 829.5px;
-    border: 4px black solid;
+    height: 700px;
+    
 }
 
 .businessTitle {
     text-align: center;
+}
+
+.serviceTest {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
