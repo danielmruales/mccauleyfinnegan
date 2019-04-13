@@ -16,4 +16,23 @@ contactRoute.route('/')
     })
 })
 
+
+contactRoute.route('/:_id')
+
+.get((req, res) => {
+    const {id} = req.params;
+    contact.findById(id, (err, found) => {
+        err ? res.status(500).send(err) : res.status(200).send(found)
+    })
+})
+
+.delete((req, res) => {
+    const{_id} = req.params;
+    contact.findOneAndDelete(_id, err => {
+        err ? res.status(500).send(err) : res.status(200).send('Successfully Deleted!')
+    })
+})
+
+
+
 module.exports = contactRoute
