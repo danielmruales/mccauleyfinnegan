@@ -14,3 +14,24 @@
 .logo {
     height: 80px;
 }
+
+@media (max-width: 420px) {
+    .navItems {
+        font-size: 13pt;
+        margin-top: 18pt;
+    }
+    .logo {
+        height: 60px;
+    }
+}
+
+@media (max-width: 321px) {
+    .navItems {
+        font-size: 11pt;
+        margin-top: 12pt
+    }
+    .logo {
+        height: 40px;
+    }
+
+}

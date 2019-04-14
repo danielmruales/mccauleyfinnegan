@@ -13,12 +13,15 @@
     }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 321px) {
     .footer { 
-        position: absolute;
-        bottom: 0
+        position: fixed;
+        bottom: 0;
+        
     }
 }
+
+
 
 /* @media (min-width: 740px) and (max-width: 1060px) {
     .footer {

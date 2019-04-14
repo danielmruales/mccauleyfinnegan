@@ -1,3 +1,7 @@
+.serviceTest {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
 .serviceTitle {
     text-align: center;
     margin-top: 40pt;
@@ -29,7 +33,6 @@
 
 .photoPic {
     height: 700px;
-    
 }
 
 .photoTitle {
@@ -50,9 +53,4 @@
 
 .businessTitle {
     text-align: center;
-}
-
-.serviceTest {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
 }
