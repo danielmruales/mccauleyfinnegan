@@ -14,9 +14,21 @@
     padding: 20px;
 }
 
+/* Works on Chrome Dev Tools but not here */
 .marketingPic {
     height: 700px;
-    
+    width: 525px;
+    margin: auto;
+    background-image: url('https://www.mcfinneganphotography.com/uploads/9/1/6/0/91608040/img-3463_orig.jpg');
+}
+
+.imgTitle {
+    background-color: rgba(0, 0, 0, 0.32);
+    color: white;
+    text-align: center;
+    font-size: 24pt;
+    width: 180px;
+    height: 40px;
 }
 
 .marketingTitle {
@@ -33,6 +45,7 @@
 
 .photoPic {
     height: 700px;
+    margin: auto;
 }
 
 .photoTitle {
@@ -48,9 +61,16 @@
 
 .businessPic {
     height: 700px;
-    
+    margin: auto;
 }
 
 .businessTitle {
     text-align: center;
+}
+
+
+.secondPics {
+    width: 813px;
+    border: 2px black solid;
+    border-radius: 5px;
 }
