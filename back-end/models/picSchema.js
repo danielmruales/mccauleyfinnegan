@@ -3,15 +3,11 @@ const Schema = mongoose.Schema;
 
 const picSchema = new Schema ({
 
-    description: {
-        type: String,
-        required: true
-    },
+    description: String,
     image: {
         type: String,
         required: true
     }
-
 
 })
 

@@ -17,15 +17,33 @@ class Services extends Component {
                 <h1 className='serviceTitle'>Grow Your Brand With MC Finny</h1>
                 <div className='marketing'>
                     <img src='https://www.mcfinneganphotography.com/uploads/9/1/6/0/91608040/img-9174_orig.jpg'alt='' className='secondPics'/>
-                    <h1 className='marketingTitle'>Marketing</h1>
+                    <div className='marketingTitle'>
+                        <h1>Marketing</h1>
+                        <p>lorem impusm lorem impusm lorem impusm lorem impusm</p>
+                        <p>lorem impusm lorem impusm lorem impusm lorem impusm</p>
+                        <p>lorem impusm lorem impusm lorem impusm lorem impusm</p>
+                        <p>lorem impusm lorem impusm lorem impusm lorem impusm</p>
+                    </div>
                 </div>
                 <div className='photo'>
-                    <h1 className='photoTitle'>Photography</h1>
+                    <div className='photoTitle'>
+                        <h1>Photography</h1>
+                        <p>lorem impusm lorem impusm lorem impusm lorem impusm</p>
+                        <p>lorem impusm lorem impusm lorem impusm lorem impusm</p>
+                        <p>lorem impusm lorem impusm lorem impusm lorem impusm</p>
+                        <p>lorem impusm lorem impusm lorem impusm lorem impusm</p>
+                    </div>
                     <img src='https://www.mcfinneganphotography.com/uploads/9/1/6/0/91608040/img-3437_orig.jpg'alt='' className='secondPics'/>
                 </div>
                 <div className='business'>
                     <img src='https://www.mcfinneganphotography.com/uploads/9/1/6/0/91608040/img-0860-2_3_orig.jpg'alt='' className='secondPics'/>
-                    <h1 className='businessTitle'> Business Consulting</h1>
+                    <div className='businessTitle'> 
+                        <h1>Business Consulting</h1>
+                        <p>lorem impusm lorem impusm lorem impusm lorem impusm</p>
+                        <p>lorem impusm lorem impusm lorem impusm lorem impusm</p>
+                        <p>lorem impusm lorem impusm lorem impusm lorem impusm</p>
+                        <p>lorem impusm lorem impusm lorem impusm lorem impusm</p>
+                    </div>
                 </div>
             </div>
         );

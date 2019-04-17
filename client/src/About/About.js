@@ -6,7 +6,14 @@ const About = () => {
     return (
         <div>
             <Navbar/>
-           <h1>Como estas?</h1> 
+           <div className='mainAbout'>
+               <img/>
+               <div>
+                   <h1>
+                       MCCAULEY FIN
+                   </h1>
+               </div>
+           </div>
         </div>
     );
 };

@@ -1,0 +1,8 @@
+.picForm {
+    display: flex;
+    justify-content: center;
+}
+
+.picForm > form > input {
+    margin: 10px
+}
