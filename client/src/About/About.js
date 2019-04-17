@@ -15,6 +15,9 @@ const About = () => {
                    <p>Lorem Impsum Lorem Impsum Lorem Impsum Lorem Impsum Lorem Impsum</p>
                    <p>Lorem Impsum Lorem Impsum Lorem Impsum Lorem Impsum Lorem Impsum</p>
                    <p>Lorem Impsum Lorem Impsum Lorem Impsum Lorem Impsum Lorem Impsum</p>
+                   <p>Lorem Impsum Lorem Impsum Lorem Impsum Lorem Impsum Lorem Impsum</p>
+                   <p>Lorem Impsum Lorem Impsum Lorem Impsum Lorem Impsum Lorem Impsum</p>
+                   
                </div>
            </div>
         </div>
