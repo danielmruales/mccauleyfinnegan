@@ -2,3 +2,26 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+.mainAbout > img {
+    width: 835px;
+}
+
+.secondAbout {
+    background-color: #E6ECEE;
+    text-align: center;
+}
+
+@media (max-width: 420px) {
+    .mainAbout {
+        display: flex;
+        flex-direction: column;
+    }
+    .mainAbout > img {
+        width: 355px;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 40px;
+        border: 2px black solid;
+        border-radius: 60px;
+    }
+}

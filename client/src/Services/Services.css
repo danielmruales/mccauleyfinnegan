@@ -78,3 +78,9 @@
     border-radius: 5px;
 }
 
+@media (max-width: 420px) {
+  .serviceTest {
+      display: flex;
+      flex-direction: column;
+  }
+}
