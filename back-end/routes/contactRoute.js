@@ -1,7 +1,7 @@
 const express = require('express');
 const contactRoute = express.Router();
 
-const contact = require('../models/contactSchema')
+const contact = require('../models/contactSchema.js')
 
 contactRoute.route('/')
 

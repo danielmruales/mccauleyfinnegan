@@ -4,6 +4,7 @@ import Admin from './Admin/Admin.js'
 import Pictures from './Admin/Pictures/Pictures.js'
 import Sub from './Admin/Submissons/Sub.js'
 import Services from './Services/Services.js'
+import Photography from './Pics Page/Photography.js';
 import About from './About/About.js'
 import Contact from './Contact/Contact.js'
 import Footer from './Footer/Footer.js'
@@ -22,6 +23,7 @@ class App extends Component {
           <Route path='/pictures' component={Pictures}/>
           <Route path='/submissons' component={Sub}/>
           <Route path='/services' component={Services}/>
+          <Route path='/photography' component={Photography}/>
           <Route path='/about' component={About}/>
           <Route path='/contact' component={Contact}/>
         </Switch>

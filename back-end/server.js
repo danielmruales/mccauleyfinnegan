@@ -8,7 +8,9 @@ const port = process.env.port || 5500
 App.use(express.json())
 App.use('/api', expressJwt({secret: process.env.SECRET}));
 
-App.use('/contact', require('./routes/contactRoute'))
+App.use('/contact', require('./routes/contactRoute.js'))
+// App.use('/photography', require('./routes/photographyRoute.js'))
+
 
 
 mongoose.connect('mongodb://localhost:27017/mcfinnegan', {useNewUrlParser: true})
