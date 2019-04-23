@@ -33,7 +33,7 @@ class Services extends Component {
                         <p>lorem impusm lorem impusm lorem impusm lorem impusm</p>
                         <p>lorem impusm lorem impusm lorem impusm lorem impusm</p>
                     </div>
-                    <img src='https://www.mcfinneganphotography.com/uploads/9/1/6/0/91608040/img-3437_orig.jpg'alt='' className='secondPics'/>
+                    <img src='https://www.mcfinneganphotography.com/uploads/9/1/6/0/91608040/img-3437_orig.jpg'alt='' className='secondPics' onClick={() => this.props.history.push('/photography')} />
                 </div>
                 <div className='business'>
                     <img src='https://www.mcfinneganphotography.com/uploads/9/1/6/0/91608040/img-0860-2_3_orig.jpg'alt='' className='secondPics'/>

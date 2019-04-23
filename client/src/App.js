@@ -16,7 +16,6 @@ class App extends Component {
   render() {
     return (
       <div className='mainDiv'>
-
         <Switch>
           <Route exact path='/' component={Home}/>
           <Route  path='/admin' component={Admin}/>

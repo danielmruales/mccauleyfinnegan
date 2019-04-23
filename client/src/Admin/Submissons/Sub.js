@@ -17,8 +17,6 @@ class Sub extends Component {
 
     }
 
-
-
     render() {
 
         const mappedSubmissions = this.props.submissions.map((submission) => {
