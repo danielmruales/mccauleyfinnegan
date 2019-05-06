@@ -55,6 +55,16 @@
     text-align: center;
 }
 
+.picsBtn {
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    border: 1px black solid;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: pink;
+}
+
  
 
 .business {
