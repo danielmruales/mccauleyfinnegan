@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Navbar from '../Navbar/Navbar.js';
+import {Link} from 'react-router-dom'
 import './Services.css'
 
 class Services extends Component {
@@ -32,6 +33,7 @@ class Services extends Component {
                         <p>lorem impusm lorem impusm lorem impusm lorem impusm</p>
                         <p>lorem impusm lorem impusm lorem impusm lorem impusm</p>
                         <p>lorem impusm lorem impusm lorem impusm lorem impusm</p>
+                        <Link className='picsBtn'>View Pics!</Link>
                     </div>
                     <img src='https://www.mcfinneganphotography.com/uploads/9/1/6/0/91608040/img-3437_orig.jpg'alt='' className='secondPics' onClick={() => this.props.history.push('/photography')} />
                 </div>

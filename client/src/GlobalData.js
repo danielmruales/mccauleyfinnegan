@@ -27,8 +27,6 @@ class GlobalData extends Component {
         })
     }
 
-  
-
 
 
     render() {

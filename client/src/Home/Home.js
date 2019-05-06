@@ -23,7 +23,7 @@ const Home = (props) => {
                 </div>
                 <hr width="1" size="100" color='#fff' style={{borderLeft: 'dashed 2pt #F7A9A9'}}/>
                 <h1 className='thirdTitle'>Words to make them Like you</h1>
-                <Link to='/contact' className='contactBtn'>Get In Touch </Link>
+                <Link to='/contact' className='contactBtn'> Get In Touch </Link>
             </div>
         </div>
     );
